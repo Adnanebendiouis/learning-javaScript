@@ -1,0 +1,88 @@
+body{
+    font-family: Arial, sans-serif;
+    background-color: hsl(2, 5%, 75%);
+}
+.title{
+    color: rgb(235, 186, 52);
+    text-align: center;
+    margin-top: 50px;
+}
+.todoinput{
+    width: 50%;
+    margin-bottom: 15px;
+    margin-left: 100px;
+    border-radius: 4px;
+    border: 2px solid hsl(0, 0%, 0%,0.8);
+    text-align: center;
+    font-size: 2em;
+    align-content: center;
+    align-items: center;
+    padding-right: 40px;
+}
+.htmlbox{
+    text-align: center;
+    margin: auto;
+    padding: 25px;
+    border-radius: 10px;
+    box-shadow: 5px 5px 15px hsla(0, 0%, 0%, 0.3);
+    max-width: 600px;
+}
+button{
+    margin-top: 15px;
+    background-color:  hsl(49, 78%, 58%);
+    font-size: 1.5em;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    color: white;
+    cursor: pointer;
+}
+button:hover{
+    background-color: hsl(49, 78%, 78%);
+}
+button:active{
+    background-color: rgb(240, 204, 104);
+}
+.disp{
+    font-size: 1.75em;
+    font-weight: bold;
+    text-align: center;
+    margin-top: 20px;
+}
+.todobox{
+    display: flex;
+    margin: auto;
+    padding: 25px;
+    border-radius: 10px;
+
+    flex-direction: column;
+    margin-top: 50px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.task-box {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 10px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: hsl(49, 78%, 58%);
+}
+
+.edit-btn, .delete-btn {
+    margin-left: 10px;
+    padding: 5px 10px;
+    cursor: pointer;
+    border: none;
+    border-radius: 3px;
+    color: white;
+}
+
+.edit-btn {
+    background-color: #4CAF50;
+}
+
+.delete-btn {
+    background-color: #f44336;
+}
