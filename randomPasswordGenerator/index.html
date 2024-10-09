@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="htmlbox">
+      <input type="text" class="password" readonly id="passwword" />
+      <button type="submit" id="submit" onclick="add()">Generate</button><br />*
+      <div class="checkbox-container">
+        <input
+          type="checkbox"
+          name="include lower case characteres"
+          id="lowercase"
+        />
+        <label for="lowercase">Include lower case characters</label><br />
+      </div>
+      <div class="checkbox-container">
+        <input
+          type="checkbox"
+          name="include upper case characteres"
+          id="uppercase"
+        />
+        <label for="uppercase">Include upper case characters</label><br />
+      </div>
+
+      <div class="checkbox-container">
+        <input type="checkbox" name="include numbers" id="numbers" />
+        <label for="numbers">Include numbers</label><br />
+      </div>
+
+      <div class="checkbox-container">
+        <input
+          type="checkbox"
+          name="include special characteres"
+          id="specialcharacteres"
+        />
+        <label for="specialcharacteres">Include special characters</label><br />
+      </div>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
