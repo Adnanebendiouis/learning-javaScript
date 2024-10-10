@@ -8,8 +8,8 @@
   </head>
   <body>
     <div class="htmlbox">
-      <input type="text" class="password" readonly id="passwword" />
-      <button type="submit" id="submit" onclick="add()">Generate</button><br />*
+      <input type="text" class="password" readonly id="password" /><br>
+      <button type="submit" id="submit" >Generate</button><br/><br>
       <div class="checkbox-container">
         <input
           type="checkbox"
@@ -18,6 +18,7 @@
         />
         <label for="lowercase">Include lower case characters</label><br />
       </div>
+
       <div class="checkbox-container">
         <input
           type="checkbox"
@@ -26,6 +27,7 @@
         />
         <label for="uppercase">Include upper case characters</label><br />
       </div>
+      
 
       <div class="checkbox-container">
         <input type="checkbox" name="include numbers" id="numbers" />
@@ -33,11 +35,7 @@
       </div>
 
       <div class="checkbox-container">
-        <input
-          type="checkbox"
-          name="include special characteres"
-          id="specialcharacteres"
-        />
+        <input type="checkbox" name="include special characteres" id="specialcharacteres"/>
         <label for="specialcharacteres">Include special characters</label><br />
       </div>
     </div>
